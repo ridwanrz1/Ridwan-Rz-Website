@@ -1,0 +1,170 @@
+/* |===================================================================================================================|
+@ | Document-Type: CSS - Cascading Style Sheets |                       ||||
+^ | CSS is used as editing styles of the document on HTML |             ||||
+! | This File Might Contain Bugs, Uncompleted Codes And Errors |        ||||
+* | Credits: Ridwan Ahmed - HTML & CSS Dev. | - - - - - - - - -         ||||
+@                               All Rights Reserved - RZ's Website                                                      @
+|=======================================================================================================================| */
+
+.bodymodify {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    height: 100%;
+    line-height: 1px;
+}
+
+.box-area {
+    overflow: hidden;
+    background-color: rgb(51, 49, 49);
+    border-bottom: 3.5px solid #ffff03;
+    height: 62px;
+    display: flex;
+}
+
+.img1modify {
+    width: auto;
+    height: 40px;
+    margin: 8px;
+}
+.img2modify {
+    width: auto;
+    height: 50px;
+    margin-left: 420px;
+    margin-top: 5px;
+}
+
+.btn1 {
+    padding: 19px 17px;
+    background-color: transparent;
+    color: #ffff03;
+    border: none;
+    margin-top: 0;
+    margin-left: 80px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    z-index: 999;
+}
+
+
+.btn1:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.divbtn1 {
+    display: flex;
+}
+
+.btn2 {
+    padding: 19px 8px;
+    background-color: transparent;
+    color: #ffff03;
+    border: none;
+    margin-top: 0;
+    font-family: Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    z-index: 999;
+}
+
+
+.btn2:hover {
+    background-color: #ff4c4c;
+    color: rgb(255, 255, 255);
+}
+
+.divbtn2 {
+    display: flex;
+}
+
+.home {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+.youtube {
+    height: 15px;
+    width: 15px;
+    margin-right: 7px;
+}
+
+
+.backgroundimage {
+    background-color: rgb(0, 0, 0);
+    background-image: url("../images/backgrounds/Housecopy.jpg");
+    height: 90.8vh;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 130%;
+}
+/*
+.textbox1 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 163px;
+}*/
+
+
+.h1box {
+    font-size: 98px;
+    font-family: 'Helvetica', sans-serif;
+    color: #ffc400;
+    font-weight: 900;
+    filter: drop-shadow(0px 0px 7px #ffc400);
+    letter-spacing: 30px;
+    margin-top: 58px;
+}
+
+.h2box {
+    font-size: 56px;
+    font-family: 'Helvetica', sans-serif;
+    color: #ffffff;
+    filter: drop-shadow(0px 3px 4px #FFFF);
+}
+/*
+.textbox2 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: 269px;
+}*
+
+.textbox2 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 234px;
+    margin-top: 349px;
+}
+.textbox1 {
+    background-color: transparent;
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 233px;
+}*/
+
+.blackbg {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 233px;
+    width: 366px;
+    background-color: #0000002c;
+    height: 183px;
+    border-radius: 28px;
+}
+
+.textbox2 {
+    margin-top: 82px;
+    margin-left: 4px;
+}
+
+.textbox1 {
+    
+}
